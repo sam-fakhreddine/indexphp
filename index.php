@@ -1,7 +1,7 @@
-<?phpprint <html>?>
-<?php<head>?>
-  <?php<title>Sam Fakhreddine: Next Steps / AWS Test - DevOps Engineer - Onica</title>?>
-  <?php<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">?>
+<html>
+<head>
+  <title>Sam Fakhreddine: Next Steps / AWS Test - DevOps Engineer - Onica</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 </head>
 <body>
   <h1>Welcome to the Sam's Demo Webpage!</h1>
@@ -12,6 +12,7 @@
     print date("g:i A l, F j Y.");
   ?>
   <p/>
+
   <?php
     // Setup a handle for CURL
     $curl_handle=curl_init();
