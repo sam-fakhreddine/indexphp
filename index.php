@@ -62,7 +62,7 @@
   ?>
     <h2>Thanks for coming by!</h2>
 	<?php $value1=mt_rand(300,500); $value2=mt_rand(300,500); ?>
-	<img src="http://placekitten.com/<?php echo $value1 ?>/<?php echo $value1 ?>">
+	<img src="http://placekitten.com/<?php echo $value1 ?>/<?php echo $value2 ?>">
 </div>	
   </body>
 </html>
