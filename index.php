@@ -3,7 +3,15 @@
   <title>Sam Fakhreddine: Next Steps / AWS Test - DevOps Engineer - Onica</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 </head>
+
 <body>
+<style>
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+</style>
+<div class="content">
   <h1>Welcome to the Sam's Demo Webpage!</h1>
   <p/>
   <?php
@@ -49,10 +57,12 @@
       }
       else
       {
-       print "EC2 instance-id = " . $internalhostname. ".<br>";
+       print "Internal Hostname = " . $internalhostname. ".<br>";
       }
   ?>
     <h2>Thanks for coming by!</h2>
-	
+	<?php $value1=mt_rand(300,500); $value2=mt_rand(300,500); ?>
+	<img src="http://placekitten.com/<?php echo $value1 ?>/<?php echo $value1 ?>">
+</div>	
   </body>
 </html>
