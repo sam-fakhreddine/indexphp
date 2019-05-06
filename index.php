@@ -16,7 +16,7 @@
   <p/>
   <?php
     // Print out the current data and time
-    print "The Current Date and Time is: <br/>";
+    print "The Current UTC Date and Time is: <br/>";
     print date("g:i A l, F j Y.");
   ?>
   <p/>
@@ -57,7 +57,7 @@
       }
       else
       {
-       print "Internal Hostname = " . $internalhostname. ".<br>";
+       print "Internal Hostname = <b>" . $internalhostname. "</b.<br>";
       }
   ?>
     <h2>Thanks for coming by!</h2>
