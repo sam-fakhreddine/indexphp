@@ -40,6 +40,17 @@
       {
        print "EC2 instance-id = " . $instanceid . ".<br>";
       }
+// Get the internal hostname from the instance metadata
+      curl_setopt($curl_handle,CURLOPT_URL,'http://169.254.169.254/latest/meta-data/local-hostname');
+      $internalhostname = curl_exec($curl_handle);
+      if (empty($internalhostname))
+      {
+       print "Sorry, for some reason, we got no internal hostname  back.<br>";
+      }
+      else
+      {
+       print "EC2 instance-id = " . $internalhostname. ".<br>";
+      }
   ?>
     <h2>Thanks for coming by!</h2>
 	
